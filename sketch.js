@@ -19,7 +19,7 @@ function setup() {
 	shps[1] = new ShapeT(createVector(300,300), 150);
 	shps[2] = new ShapeR(createVector(700, 300), 100);
 	shps[3] = new ShapeT(createVector(1000, 500), 50);
-	shsp[4] = new ShapeR(createVector(900, 450), 70, 70);
+	shps[4] = new ShapeR(createVector(900, 450), 70, 70);
 }
 
 function draw() {
