@@ -7,10 +7,17 @@ function setup() {
 	source = createVector(mouseX,mouseY);
 	shps[0] = new ShapeR(createVector(0,0), 1280, 720);
 	
+	//For random shapes which MAY intersect
+	/*
 	for (var i=1; i<5; i+=2){
 		shps[i] = new ShapeT(createVector(random(0,1280),random(0,720)), random(0,300));
 		shps[i+1] = new ShapeR(createVector(random(0,1280),random(0,720)), 200, 200);
 	}
+	*/
+	
+	//Pre-defined shapes
+	shps[1] = new ShapeT(createVector(300,300), 150);
+	shps[2] = new ShapeR(createVector(700, 300), 100);
 }
 
 function draw() {
