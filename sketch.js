@@ -196,6 +196,8 @@ function ShapeR(pos, width, height){
 	
 }
 
+//Define new circle object, its vertices are the points at which the tangents from the mouse position, to the edge of the circle - meet the circle.
+//Vertices need to be defined dynamically within the shape itself in order for it to fit into the current draw format.
 
 
 function Line(p1,p2){
